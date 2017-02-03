@@ -119,6 +119,10 @@ DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 # HW crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
+
+# Memory Config
+MALLOC_SVELTE := true
+
 # Partitions
 TARGET_COPY_OUT_VENDOR := vendor
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
