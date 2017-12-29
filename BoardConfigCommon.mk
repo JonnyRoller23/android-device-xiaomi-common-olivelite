@@ -119,6 +119,8 @@ DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
 # HW crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
 
 # Memory Config
 MALLOC_SVELTE := true
