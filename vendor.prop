@@ -177,3 +177,7 @@ ro.vendor.sensors.pseudo_gyro=true
 
 # Time Services
 persist.timed.enable=true
+
+# Xiaomi Mi439 - SoC
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=SDM439
