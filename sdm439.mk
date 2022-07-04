@@ -103,7 +103,9 @@ PRODUCT_COPY_FILES += \
 # LongShot
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/com.asus.stitchimage.service-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/com.asus.stitchimage.service-hiddenapi-package-whitelist.xml \
-    $(LOCAL_PATH)/configs/com.asus.stitchimage-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/com.asus.stitchimage-hiddenapi-package-whitelist.xml      
+    $(LOCAL_PATH)/configs/com.asus.stitchimage-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/com.asus.stitchimage-hiddenapi-package-whitelist.xml
+	
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor \
