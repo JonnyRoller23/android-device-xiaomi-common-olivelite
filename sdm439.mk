@@ -118,7 +118,7 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor
 
 PRODUCT_PACKAGES += \
-    GCamGOPrebuilt
+    GoogleCameraGo
 
 PRODUCT_PACKAGES += \
     ViaBrowser
