@@ -126,7 +126,7 @@ PRODUCT_PACKAGES += \
     ViaBrowser
 
 PRODUCT_PACKAGES += \
-    SimpleGallery
+    GalleryGo
 
 PRODUCT_PACKAGES += \
     MiCalculator
